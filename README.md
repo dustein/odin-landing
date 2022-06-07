@@ -1,0 +1,1 @@
+Odin Project exercise - Landing Page
