@@ -5,18 +5,31 @@
 header {
    background-color: #1f2937;
    color: #f9faf8;
-   font-size: 48px;
-   font-weight: bolder;
 }
 
 footer {
    background-color: #1f2937;
+   color:rgb(241, 237, 237);
+   font-size: 16px;
+   font-weight: 700;
+   padding: 20px;
+   text-align: center;
 }
 
+a {
+   text-decoration: none;
+
+   color:rgb(241, 237, 237);
+}
+a:hover {
+
+   color:rgb(109, 123, 187);
+}
 .nav {
    display: flex;
    justify-content: space-between;
    font-size: 18px;
+   font-weight: 800;
    padding: 15px;
 }
 
@@ -30,66 +43,142 @@ footer {
    padding-right: 1rem;
 }
 
+.logo {
+   display: flex;
+   flex-direction: column;
+}
+.nome {
+   font-size: 32px;
+   font-weight: 900;
+}
+.descreve {
+   font-style: italic;
+   font-size: 12px;
+}
 .head {
    display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   height: 300px;
+   align-items:center;
+   gap: 1rem;
+   padding: 3rem 10rem 5rem;
 }
-
+.head p {
+   font-size: 18px;
+}
+.head h1 {
+   font-size: 36px;
+   font-weight: 900;
+}
+.head button {
+   background-color: #0d53c2;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 5px 10px 5px;
+}
 .conteudo {
-   background-color: #eee;
+   background-color: #ffffff;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
+.head-left {
+   width: 50%;
+}
+.head-right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+}
+.head-right img {
+   max-width: 300px;
+}
 
 .conteudo-itens {
    display: flex;
-   justify-content: space-evenly;
+   justify-content:center;
+   
 }
 
 .itens {
    display: flex;
    flex-direction: column;
    align-items: center;
+   max-width: 250px;
+   margin: 30px 40px 40px 30px;
 }
 
 .itens img {
    border: solid;
-   min-height: 200px;
-   min-width: 200px;
+   border-radius: 15px;
+   max-height: 250px;
+   max-width: 250px;
+}
+
+.itens p {
+   text-align: justify;
 }
 
 .conteudo-title {
-   font-size: 36px;
+   font-size: 32px;
    font-weight: 900;
+   margin: 30px;
 }
 .testimonial {
-   background-color: rgb(225, 222, 222);
+   background-color: rgb(241, 237, 237);
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 60px;
 }
 .test-text {
-   font-size: 32px;
+   font-size: 24px;
    width: 40%;
    font-style: italic;
    /* margin-bottom: 0; */
 }
 .test-assina {
    width: 40%;
-   font-size: 26px;
+   font-size: 20px;
    font-weight: 700;
    align-self:flex-end;
    margin-top: 0;
 }
 .call button {
-   background-color: blue;
+   background-color: transparent;
    color: #eee;
    border: solid;
    border-color: white;
-   font-size: 26px;
-   border-radius: 24px;
+   font-size: 16px;
+   border-radius: 12px;
+   margin: auto;
+   padding: 0.5rem;
+   flex-shrink: 0;
 }
+.call-space {
+   background-color: #ffffff;
+   padding: 5rem 10rem 5rem;
+}
+.call {
+   background-color: #0d53c2;
+   color: #ffffff;
+   border-radius: 8px;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem 10rem 1rem;
+   gap: 5rem;
+}
+
+.call-text {
+   font-size: 18px;
+   text-align: justify;
+}
+
+.botao {
+   flex-shrink: 0;
+   padding-left: 20px;
+}
+
